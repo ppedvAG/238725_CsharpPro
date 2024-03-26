@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloAsync", "HalloAsync\HalloAsync.csproj", "{0BE449AC-14EC-4AC6-837C-E90800ABE262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE449AC-14EC-4AC6-837C-E90800ABE262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE449AC-14EC-4AC6-837C-E90800ABE262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE449AC-14EC-4AC6-837C-E90800ABE262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE449AC-14EC-4AC6-837C-E90800ABE262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0AEDAD3-C50A-4651-A9EC-17A6FD4B699F}
+	EndGlobalSection
+EndGlobal
