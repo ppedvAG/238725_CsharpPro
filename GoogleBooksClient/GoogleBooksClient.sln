@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleBooksClient", "GoogleBooksClient\GoogleBooksClient.csproj", "{410E959C-7574-4EE8-B202-C0168DCC7C16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410E959C-7574-4EE8-B202-C0168DCC7C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410E959C-7574-4EE8-B202-C0168DCC7C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410E959C-7574-4EE8-B202-C0168DCC7C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410E959C-7574-4EE8-B202-C0168DCC7C16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ED845F0-3225-4458-93AF-DB30B617A6CD}
+	EndGlobalSection
+EndGlobal
