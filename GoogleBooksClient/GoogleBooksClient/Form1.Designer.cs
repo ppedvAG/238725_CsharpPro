@@ -36,6 +36,8 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -108,6 +110,8 @@
             flowLayoutPanel1.BackColor = Color.ForestGreen;
             flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button3);
+            flowLayoutPanel1.Controls.Add(button4);
+            flowLayoutPanel1.Controls.Add(button5);
             flowLayoutPanel1.Dock = DockStyle.Top;
             flowLayoutPanel1.Location = new Point(0, 48);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -137,6 +141,30 @@
             button3.Text = "📂 Load as JSON...";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.AutoSize = true;
+            button4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button4.Location = new Point(455, 3);
+            button4.Name = "button4";
+            button4.Size = new Size(208, 42);
+            button4.TabIndex = 2;
+            button4.Text = "INSERT ALL in DB";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.AutoSize = true;
+            button5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            button5.Location = new Point(669, 3);
+            button5.Name = "button5";
+            button5.Size = new Size(133, 42);
+            button5.TabIndex = 3;
+            button5.Text = "Search DB";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // Form1
             // 
@@ -169,5 +197,7 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Button button2;
         private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }
